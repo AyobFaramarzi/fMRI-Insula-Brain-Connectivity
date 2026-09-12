@@ -2,6 +2,10 @@
 
 ## Clinical Utility of fMRI in Evaluating of LSD Effect on Pain-Related Brain Networks in Healthy Subjects
 
+![Study summary](figures/research-summary.svg)
+
+*Original visual summary based on the published study; activated-voxel counts are taken from the reported results.*
+
 This repository presents a research project investigating the effects of LSD on pain-related brain networks in healthy participants using functional magnetic resonance imaging (fMRI).
 
 The study focused on changes in brain activity and connectivity associated with pain processing following LSD administration.
@@ -25,7 +29,7 @@ How does LSD affect pain-related brain networks and functional and effective con
 
 The study included 20 healthy volunteers.
 
-Participants underwent two fMRI sessions in a balanced-order crossover design, receiving LSD in one session and placebo in the other.
+Participants underwent two fMRI sessions in a balanced-order crossover design, receiving intravenous LSD in one session and placebo in the other.
 
 The study investigated changes in pain-related brain networks and their relationships with clinical measures of pain.
 
@@ -35,6 +39,7 @@ The fMRI data were analyzed using several complementary approaches to investigat
 
 The analysis included:
 
+- Amplitude of low-frequency fluctuation (ALFF)
 - Independent Component Analysis (ICA)
 - Functional connectivity analysis
 - Effective connectivity analysis
@@ -43,11 +48,13 @@ The analysis included:
 
 ## Brain Network Analysis
 
-Functional connectivity was used to examine statistical dependencies between brain regions and networks.
+The study reported differences in regional activity and functional connectivity between placebo and LSD sessions. Pain-related regions included the anterior cingulate cortex, thalamus, insula, parietal operculum, and frontal pole.
 
-Effective connectivity analysis was used to investigate directed interactions between brain regions.
+Effective connectivity differences were reported for the left anterior insula cortex (lAIC) involving intra-regional connectivity and interactions with the dorsolateral prefrontal cortex, as well as for the secondary somatosensory cortex and dorsolateral prefrontal cortex.
 
-Dynamic Causal Modeling (DCM) was applied to examine changes in effective connectivity associated with LSD administration.
+## Reported Activated-Voxel Pattern
+
+The placebo session showed more activated voxels than the LSD session in the reported pain-processing regions based on the ALFF analysis.
 
 ## Research Workflow
 
@@ -56,19 +63,15 @@ Healthy Participants
         ↓
 LSD / Placebo Crossover
         ↓
-Pain Stimulation
+Pain-related fMRI
         ↓
-fMRI Acquisition
+Preprocessing
         ↓
-fMRI Preprocessing
-        ↓
-Independent Component Analysis
+ALFF + ICA
         ↓
 Functional Connectivity
         ↓
-Effective Connectivity
-        ↓
-Dynamic Causal Modeling
+Effective Connectivity / DCM
         ↓
 Clinical Pain Correlation
         ↓
@@ -88,11 +91,13 @@ Faramarzi, A., Fooladi, M., Yousef Pour, M., Khodamoradi, E., Chehreh, A., Amiri
 
 **Clinical utility of fMRI in evaluating of LSD effect on pain-related brain networks in healthy subjects.**
 
-*Heliyon, 10(15), e34401.*
+*Heliyon, 10*(15), e34401.
 
 [Read the article](https://www.cell.com/heliyon/fulltext/S2405-8440(24)10432-X)
 
-[DOI: 10.1016/j.heliyon.2024.e34401](https://doi.org/10.1016/j.heliyon.2024.e34401)
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39165942/)
+
+[DOI](https://doi.org/10.1016/j.heliyon.2024.e34401)
 
 ## Author
 
