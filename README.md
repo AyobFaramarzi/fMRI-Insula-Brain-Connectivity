@@ -78,7 +78,6 @@ Pain-Related Brain Network Analysis
 ## Software and Tools
 
 - MATLAB
-- fMRI
 - Independent Component Analysis (ICA)
 - Functional Connectivity
 - Dynamic Causal Modeling (DCM)
@@ -91,8 +90,16 @@ Faramarzi, A., Fooladi, M., Yousef Pour, M., Khodamoradi, E., Chehreh, A., Amiri
 
 *Heliyon, 10(15), e34401.*
 
+[Read the article](https://www.cell.com/heliyon/fulltext/S2405-8440(24)10432-X)
+
+[DOI: 10.1016/j.heliyon.2024.e34401](https://doi.org/10.1016/j.heliyon.2024.e34401)
+
 ## Author
 
 **Ayob Faramarzi**
 
 Biomedical Engineering | Neuroimaging | fMRI | MRS | Brain Connectivity | Machine Learning
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=1uivc_4AAAAJ)
+
+[LinkedIn](https://www.linkedin.com/in/ayob-faramarzi/)
