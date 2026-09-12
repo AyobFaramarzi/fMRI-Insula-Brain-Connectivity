@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated publication."
+title: "Clinical Utility of fMRI in Evaluating of LSD Effect on Pain-Related Brain Networks in Healthy Subjects"
+authors:
+  - family-names: Faramarzi
+    given-names: Ayob
+  - family-names: Fooladi
+    given-names: Mohammad
+  - family-names: Yousef Pour
+    given-names: Mitra
+  - family-names: Khodamoradi
+    given-names: Ehsan
+  - family-names: Chehreh
+    given-names: Amir
+  - family-names: Amiri
+    given-names: Shahrzad
+  - family-names: Shavandi
+    given-names: Mehdi
+  - family-names: Sharini
+    given-names: Hamid
+year: 2024
